@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -note 1 -type d | wc -1
+find . -note d|tail -n +2|wc -l
