@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -note 1 -type d | wc -1
